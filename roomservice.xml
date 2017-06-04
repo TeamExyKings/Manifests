@@ -8,5 +8,5 @@
   <project name="Exynos5422/android_hardware_samsung_slsi-cm_exynos5422" path="hardware/samsung_slsi-cm/exynos5422" remote="github" revision="refs/heads/cm-14.1" />
   <project name="Exynos5422/kernel_samsung_k3gxx" path="kernel/samsung" remote="github" revision="refs/heads/master" />
   <project name="Exynos5422/android_vendor_samsung_k3gxx" path="vendor/samsung" remote="github" revision="refs/heads/cm-14.1" />
-  <project name="Exynos5422/android_device_generic_goldfish" path="device/generic" remote="github" revision="refs/heads/cm-13.0" />
+  <project name="Exynos5422/android_device_generic_goldfish" path="device/generic/goldfish" remote="github" revision="refs/heads/cm-13.0" />
 </manifest>

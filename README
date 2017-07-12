@@ -1,0 +1,7 @@
+# misc
+
+Here you will find the necessary manifest for the device.
+
+Add in .repo/local_manifests and sync up!
+
+To compile & boot kernel download UBERTC-5.3 from here https://bitbucket.org/UBERTC/arm-eabi-5.3/downloads/

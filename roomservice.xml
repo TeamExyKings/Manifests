@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Devices -->
   <project name="Exynos5422/android_device_samsung_k3gxx" path="device/samsung/k3gxx" remote="github" revision="refs/heads/RR_N" />
   <project name="Exynos5422/android_device_generic_goldfish" path="device/generic/goldfish" remote="github" revision="refs/heads/cm-13.0" />
+  <!-- Kernel -->
   <project name="Exynos5422/android_kernel_samsung_k3gxx" path="kernel/samsung/k3gxx" remote="github" revision="refs/heads/los" />
-  <project name="Exynos5422/android_hardware_samsung" path="hardware/samsung" remote="github" revision="refs/heads/cm-14.1" />
-  <project name="Exynos5422/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="refs/heads/cm-14.1" />
-  <project name="Exynos5422/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="refs/heads/cm-14.1" />
-  <project name="Exynos5422/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="refs/heads/cm-14.1" />
-  <project name="Exynos5422/android_hardware_samsung_slsi-cm_exynos5422" path="hardware/samsung_slsi-cm/exynos5422" remote="github" revision="refs/heads/cm-14.1" />
+  <!-- LOS Hardware -->
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="refs/heads/cm-14.1" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="refs/heads/cm-14.1" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="refs/heads/cm-14.1" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="refs/heads/cm-14.1" />
+  <project name="LineageOS/android_hardware_samsung_slsi-cm_exynos5422" path="hardware/samsung_slsi-cm/exynos5422" remote="github" revision="refs/heads/cm-14.1" />
+  <!-- Packages -->
   <project name="Exynos5422/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="refs/heads/cm-14.1" />  
   <project name="Exynos5422/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="refs/heads/cm-14.1" />
+  <!-- Vendor -->
   <project name="Exynos5422/android_vendor_samsung_k3gxx" path="vendor/samsung/k3gxx" remote="github" revision="refs/heads/cm-14.1" />    
 </manifest>

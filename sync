@@ -1,13 +1,13 @@
 #Paste this command in terminal once if you dont want to use roomservice.xml(local_manifest)!
 
-git clone https://github.com/Exynos5422/android_device_samsung_k3gxx.git -b RR_N device/samsung/k3gxx && 
+git clone https://github.com/Exynos5422/android_device_samsung_k3gxx.git -b cm-14.1 device/samsung/k3gxx && 
 git clone https://github.com/Exynos5422/android_device_generic_goldfish.git -b cm-13.0 device/generic/goldfish && 
-git clone https://github.com/Exynos5422/android_kernel_samsung_k3gxx.git -b los kernel/samsung/k3gxx && 
+git clone https://github.com/Exynos5422/android_kernel_samsung_k3gxx.git -b cm-14.1 kernel/samsung/k3gxx && 
 git clone https://github.com/LineageOS/android_hardware_samsung.git -b cm-14.1 hardware/samsung && 
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi-cm_exynos.git -b cm-14.1 hardware/samsung_slsi-cm/exynos && 
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi-cm_exynos5.git -b cm-14.1 hardware/samsung_slsi-cm/exynos5 && 
 git clone https://github.com/LineageOS/android_hardware_samsung_slsi-cm_openmax.git -b cm-14.1 hardware/samsung_slsi-cm/openmax && 
-git clone https://github.com/LineageOS/android_hardware_samsung_slsi-cm_exynos5422.git -b cm-14.1 hardware/samsung_slsi-cm/exynos5422 && 
+git clone https://github.com/Exynos5422/android_hardware_samsung_slsi-cm_exynos5422.git -b cm-14.1 hardware/samsung_slsi-cm/exynos5422 && 
 git clone https://github.com/Exynos5422/android_packages_apps_SamsungServiceMode.git -b cm-14.1 packages/apps/SamsungServiceMode && 
 git clone https://github.com/Exynos5422/android_packages_resources_devicesettings.git -b cm-14.1 packages/resources/devicesettings && 
-git clone https://github.com/Exynos5422/android_vendor_samsung_k3gxx.git -b cm-14.1 vendor/samsung/k3gxx
+git clone https://github.com/Exynos5422/proprietary_vendor_samsung_k3gxx.git -b cm-14.1 vendor/samsung/k3gxx

@@ -2,4 +2,6 @@
 
 Here you will find the necessary manifest for the device.
 
-Add in .repo/local_manifests and sync up!
+Firstly Initialize the repo
+
+And move the local_manifests folder under .repo directory, and Sync UP !!! ;)
